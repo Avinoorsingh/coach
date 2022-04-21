@@ -4,7 +4,7 @@ Open the front end folder
 (Backend folder is used for database purposes which is in progress)
 Getting Started with Create React App
 This project was bootstrapped with Create React App.
-
+*******NOTE:- Login function can be accessed by clicking on the home in navbar********
 Available Scripts
 In the project directory, you can run:
 
