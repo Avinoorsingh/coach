@@ -1,0 +1,69 @@
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.inputbox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  height: 25px;
+  border: 1px solid darkgreen;
+  border-radius:5px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.card1{
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.card1:hover{
+top: -10px;
+}
+.footer{
+    position:fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: gainsboro;
+    margin-top: 5000px;
+}
+.nav-ul li a{
+    color: darkgreen;
+    padding: 5px;
+    text-decoration: none;
+}
+.nav-ul{
+  padding: 5px;
+  margin: 0px;
+  background-color: lightgreen;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
